@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'cicipcicip_theme.dart';
+import 'home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,21 +11,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: Create theme
+    final theme = CicipcicipTheme.dark();
     // TODO: Apply home widget
     return MaterialApp(
-      // TODO: Add theme
+      theme: theme,
       title: 'Cicipcicip',
-      home: Scaffold(
-        // TODO: Style the title
-        appBar: AppBar(
-          title: const Text('Cicipcicip'),
-        ),
-        // TODO: Style the body
-        body: const Center(
-          child: Text('Let\'s get cooking 👩‍🍳'),
-        ),
-      ),
+      home: const Home(),
     );
   }
 }
