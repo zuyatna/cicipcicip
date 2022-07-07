@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'cicipcicip_theme.dart';
+import 'theme/cicipcicip_theme.dart';
 import 'home.dart';
 
 void main() {
