@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cicipcicip/card/card1.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -10,7 +11,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int _selectedIndex = 0;
   static List<Widget> pages = <Widget>[
-    // TODO: Replace with card1
+    const Card1(),
     Container(color: Colors.red,),
     // TODO: Replace with card2
     Container(color: Colors.green,),

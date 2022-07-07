@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'theme/cicipcicip_theme.dart';
-import 'home.dart';
+import 'package:cicipcicip/theme/cicipcicip_theme.dart';
+import 'package:cicipcicip/layout/home.dart';
 
 void main() {
   runApp(const MyApp());
